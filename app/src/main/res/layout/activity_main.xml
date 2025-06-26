@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:padding="16dp"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<EditText android:id="@+id/etNombres" android:hint="Nombres" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<EditText android:id="@+id/etApellidos" android:hint="Apellidos" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<EditText android:id="@+id/etEdad" android:hint="Edad" android:inputType="number" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<EditText android:id="@+id/etCorreo" android:hint="Correo Electronico" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<EditText android:id="@+id/etDireccion" android:hint="Direccion" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/btnSalvar" android:text="Salvar" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>
